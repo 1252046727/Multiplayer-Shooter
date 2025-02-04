@@ -3,6 +3,7 @@
 采用Client-Server模型，服务端是权威，实现方式采用ListenServer，其中一个正在玩游戏的玩家是服务端。
 
 项目特点如下:
+
 1.实现了一个可以重复用于各种多人游戏的联机插件。该插件通过虚幻引擎在线子系统OnlineSubsystem连接到Steam服务，托管我们的多人游戏进行联机。
 
 2.多种武器，主要有两大类：InstantHit和Projectile。其中InstantHit有手枪、冲锋枪、散弹枪和狙击枪。Projectile有步枪、榴弹枪、火箭筒以及手榴弹。冲锋枪以及散弹枪等武器实现了散射功能。
